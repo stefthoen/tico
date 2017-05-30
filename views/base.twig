@@ -1,0 +1,11 @@
+{% include 'html-header.twig' %}
+<html>
+    <head>
+    </head>
+    <body class="{{ body_class }}" data-template="base.twig">
+    <main role="main" class="c-main">
+        {% block content %}
+        {% endblock %}
+    </main>
+    </body>
+</html>

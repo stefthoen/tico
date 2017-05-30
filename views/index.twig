@@ -1,0 +1,9 @@
+{% extends "base.twig" %}
+{% block content %}
+{% for post in posts %}
+    {{ post.title }}
+    {% set button = { 'link' : post.link, 'text' : post.title } %}
+    {% include 'components/button/button.twig' with { 'button' : button } %}
+    {% include 'components/alert/alert.twig' with { 'alert' : post.content } %}
+{% endfor %}
+{% endblock %}
