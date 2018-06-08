@@ -1,7 +1,7 @@
 {
     "name": "stefthoen/tico",
     "type": "wordpress-theme",
-	"license": "GPLv3",
+	"license": "GPL-2.0-only",
 	"description": "Component based WordPress theme setup with Twig templates",
 	"keywords": ["wordpress", "theme", "timber", "twig", "component"],
     "homepage": "https://github.com/stefthoen/tico",
