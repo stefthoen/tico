@@ -1,0 +1,18 @@
+{
+    "name": "stefthoen/tico",
+    "type": "wordpress-theme",
+	"license": "GPLv3",
+	"description": "Component based WordPress theme setup with Twig templates",
+	"keywords": ["wordpress", "theme", "timber", "twig", "component"],
+    "homepage": "https://github.com/stefthoen/tico",
+    "authors": [
+        {
+            "name": "Stef Thoen",
+            "email": "hi@stef.co"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "timber/timber": "1.7.*"
+    }
+}
